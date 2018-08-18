@@ -226,7 +226,7 @@ sign = ecc.sign(data, privateKey)
 }
 ```
 
-**连续扫码每次结束后判断当前存储的actions lenght是否等于pageable, 若是则结束扫码**
+**连续扫码每次结束后判断当前存储的actions length是否等于pageable, 若是则结束扫码**
 ```json
 {
     "action_id": "xxxxxx",
